@@ -3,34 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>WEBSTUDIO</title>
   </head>
   <body>
     <!-- #region header -->
-    <header>
-      <a href="/">WEBSTUDIO</a>
-      <nav>
-        <ul>
+    <header class="header">
+      <a href="/" class="logo-header">WEBSTUDIO</a>
+      <nav class="navigation">
+        <ul class="nav-list">
           <li><a href="#Studio">Home</a></li>
           <li><a href="#Portfolio">About</a></li>
           <li><a href="#Contacts">Services</a></li>
         </ul>
       </nav>
 
-      <address>
+      <address class="contact-header">
         <a href="mailto:info@devstudio.com">info@devstudio.com</a>
         <a href="tel:+110001111111">+11 (000) 111-11-11</a>
       </address>
-      <div>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
-      </div>
     </header>
     <!-- #endregion -->
     <!-- #region main -->
-    <main>
-      <div>
-        <div>
+    <main class="main">
+      <div class="up-container">
+        <img
+          class="main-bg"
+          src="images/main-dark-bg.jpg"
+          alt="Main Background"
+          width="1440"
+          height="600"
+        />
+        <h1 class="main-title">Effective Solutions for Your Business</h1>
+        <button type="button" class="main-btn">Order Service</button>
+      </div>
+      <div class="main-container">
+        <div class="main-content">
           <p>Strategy</p>
           <p>
             Our goal is to identify the business<br />
@@ -38,7 +45,7 @@
             perfect and creative solution.
           </p>
         </div>
-        <div>
+        <div class="main-content">
           <p>Punctuality</p>
           <p>
             Bring the key message to the<br />
@@ -46,7 +53,7 @@
             within the shortest possible time.
           </p>
         </div>
-        <div>
+        <div class="main-content">
           <p>Diligence</p>
           <p>
             Research and confirm brands with<br />
@@ -54,7 +61,7 @@
             opportunities and minimize risk.
           </p>
         </div>
-        <div>
+        <div class="main-content">
           <p>Technologies</p>
           <p>
             Design practice focused on digital<br />
@@ -64,57 +71,68 @@
         </div>
       </div>
 
-      <section>
-        <h2>Our Team</h2>
+      <section class="team-list">
+        <h2 class="team-title">Our Team</h2>
 
-        <article>
+        <article class="team-member">
           <img
+            class="team-member-img"
             src="images/mark-guerrero.jpg"
             alt="Product Designer"
             width="260"
             height="264"
           />
-          <h3>Mark Guerrero</h3>
-          <p>Product Designer</p>
+          <h3 class="team-name">Mark Guerrero</h3>
+          <p class="team-position">Product Designer</p>
         </article>
-        <article>
+        <article class="team-member">
           <img
+            class="team-member-img"
             src="images/tom-ford.jpg"
             alt="Frontend Developer"
             width="260"
             height="264"
           />
-          <h3>Tom Ford</h3>
-          <p>Frontend Developer</p>
+          <h3 class="team-name">Tom Ford</h3>
+          <p class="team-position">Frontend Developer</p>
         </article>
-        <article>
+        <article class="team-member">
           <img
+            class="team-member-img"
             src="images/camila-garcia.jpg"
             alt="Marketing"
             width="260"
             height="264"
           />
-          <h3>Camila Garcia</h3>
-          <p>Marketing</p>
+          <h3 class="team-name">Camila Garcia</h3>
+          <p class="team-position">Marketing</p>
         </article>
-        <article>
+        <article class="team-member">
           <img
+            class="team-member-img"
             src="images/daniel-wilson.jpg"
             alt="UI Designer"
             width="260"
             height="264"
           />
-          <h3>Daniel Wilson</h3>
-          <p>UI Designer</p>
+          <h3 class="team-name">Daniel Wilson</h3>
+          <p class="team-position">UI Designer</p>
         </article>
       </section>
     </main>
     <!-- #endregion -->
     <!-- #region footer -->
-    <footer>
-      <div>
-        <a href="/">WEBSTUDIO</a>
-        <p>
+    <footer class="footer">
+      <img
+        class="footer-bg"
+        src="images/footer-dark-bg.jpg"
+        alt="Footer Background"
+        width="1440"
+        height="312"
+      />
+      <div class="footer-container">
+        <a href="/" class="logo-footer">WEBSTUDIO</a>
+        <p class="footer-text">
           Increase the flow of customers and<br />
           sales for your business with digital<br />
           marketing & growth solutions.
